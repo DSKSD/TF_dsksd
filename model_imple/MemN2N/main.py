@@ -15,7 +15,7 @@ flags = tf.app.flags
 
 flags.DEFINE_integer("edim", 150, "internal state dimension [150]")
 flags.DEFINE_integer("lindim", 75, "linear part of the state [75]")
-flags.DEFINE_integer("nhop", 3, "number of hops [6]")
+flags.DEFINE_integer("nhop", 6, "number of hops [6]")
 flags.DEFINE_integer("mem_size", 100, "memory size [100]")
 flags.DEFINE_integer("batch_size", 128, "batch size to use during training [128]")
 flags.DEFINE_integer("nepoch", 100, "number of epoch to use during training [100]")
